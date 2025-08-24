@@ -1,13 +1,15 @@
 # devops-ci-cd-project-showcase
 "End-to-End CI/CD Pipeline with Jenkins, Kubernetes, ArgoCD ,SonarQube,Github- Complete DevOps Implementation"
 End-to-End CI/CD Pipeline Implementation
-
-![Java](https://img.shields.io/badge/Java-17-red)
+![AWS](https://img.shields.io/badge/AWS-Ec2-blue)
+![AWS](https://img.shields.io/badge/AWS-EKS-orange)
+![Docker](https://img.shields.io/badge/Docker-yellow)
 ![Jenkins](https://img.shields.io/badge/Jenkins-CI/CD-blue)
 ![Kubernetes](https://img.shields.io/badge/Kubernetes-Orchestration-326ce5)
+![Java](https://img.shields.io/badge/Java-17-red)
 ![ArgoCD](https://img.shields.io/badge/ArgoCD-GitOps-ef7b4d)
-![AWS](https://img.shields.io/badge/AWS-EKS-orange)
 ![SonarQube](https://img.shields.io/badge/SonarQube-Code%20Quality-4E98D5)
+
 
 A complete CI/CD pipeline implementation that automates the build, test, security scanning, and deployment of a Java application to Kubernetes using GitOps principles.
 
