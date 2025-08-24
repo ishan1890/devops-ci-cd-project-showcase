@@ -25,7 +25,18 @@ This project demonstrates a real-world DevOps implementation featuring:
 
 ## 🏗️ Architecture
 
-![Architecture Diagram](images/architecture.png)
+![Architecture Diagram](+----------------+ +-------------+ +-------------------+ +---------------+
+| GitHub | | Jenkins | | Docker Hub | | Kubernetes |
+| Repository +-----> CI Pipeline+-----> Image Registry +-----> (EKS) |
+| (Java Code) | | | | | | |
++----------------+ +-------------+ +-------------------+ +-------+-------+
+|
+|
++----------------+ +-------------+ +-------------------+ |
+| GitHub | | ArgoCD | | Monitoring | |
+| GitOps Repo +-----> GitOps +-----> & Logging <-------------+
+| (K8s Manifests) | Controller| | |
++----------------+ +-------------+ +-------------------+)
 
 ## 📁 Project Structure
 
